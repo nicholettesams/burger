@@ -1,0 +1,19 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "MySQL, Node, Express, Handlebars, ORM app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholettesams/burger.git"
+  },
+  "author": "Niki Sams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholettesams/burger/issues"
+  },
+  "homepage": "https://github.com/nicholettesams/burger#readme"
+}
