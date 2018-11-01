@@ -1,3 +1,13 @@
 body {
     background-color: rgb(221, 221, 97);
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
 }
