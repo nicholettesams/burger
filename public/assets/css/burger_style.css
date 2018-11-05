@@ -16,15 +16,21 @@ button{
 }
 
 img{
-    width: 400px;
+    width: 80%;
     height: auto;
 }
 
 .container{
     border: 2px solid black;
     border-radius: 5px;
-    width: 500px;
+    width: 30%;
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
 }
