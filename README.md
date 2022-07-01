@@ -14,4 +14,22 @@ HTML, CSS, JavaScript, JQuery, Node, Express, Handlebars, ORM, MySQL, Heroku, Ja
 ## How to Use
 Browse to the application hosted on [Heroku](https://burgers-sams.herokuapp.com/).  Enter a new burger by typing in a name and cliking the Add Burger button.  Devour a burger that has been created by clicking on the Devour! button.  Burgers are displayed in two sections, one for burgers that have not yet been devoured and another section for burgers that have been devoured.
 
+## How to Setup
+Install dependencies
+```
+npm i
+```
+Create and setup mysql database
+```
+mysql -u root -p
+Enter password:
+source db\schema.sql
+source db\seeds.sql
+quit
+```
+Update mysql username and password in connection.js file and start the server
+```
+npm run start
+```
+
 
